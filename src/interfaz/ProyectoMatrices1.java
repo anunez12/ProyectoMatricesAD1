@@ -176,6 +176,7 @@ public class ProyectoMatrices1 extends javax.swing.JFrame {
 
             }
         ));
+        tblTablaInicial.setEnabled(false);
         jScrollPane1.setViewportView(tblTablaInicial);
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 40, -1, 200));
@@ -188,6 +189,7 @@ public class ProyectoMatrices1 extends javax.swing.JFrame {
 
             }
         ));
+        tblTablaResultado.setEnabled(false);
         jScrollPane2.setViewportView(tblTablaResultado);
 
         jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 250, -1, 270));
@@ -387,7 +389,7 @@ public class ProyectoMatrices1 extends javax.swing.JFrame {
 
         Helper.habilitarBotones(botonesHabilitar);
         Helper.deshabilitarBotones(botonesDesabilitar);
-
+   
     }//GEN-LAST:event_cmdOperacionActionPerformed
 
     private void cmdSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdSalirActionPerformed
